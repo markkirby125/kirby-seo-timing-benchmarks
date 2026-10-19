@@ -24,7 +24,7 @@
 - The slow tail of Matrix rows 1–4 terminates in **never**. Google's scheduler does not hold low-quality URLs in an infinitely long queue — it deprioritizes them out of the pipeline entirely.
 - The correct response is not more waiting and not more submission (resubmitting a sitemap does not override a quality verdict). The correct response is to **change the asset**: consolidate, differentiate, add verifiable utility, or cut it (410/404 doctrine: `../../kirby-seo-deployment/SKILL.md` §7.7 — 410 drops dead URLs ~2x faster than passive 404s).
 - For location/template pages specifically, `Crawled - currently not indexed` is classified as a **differentiation deficit** — route to `../../kirby-local-seo/SKILL.md` Module 7 (Gate 0 + 10-rule framework), and audit per `../../kirby-seo-telemetry/SKILL.md` Module 11.
-- For undifferentiated scaled content generally, the Scaled Content Abuse demotion ladder and Grokipedia 97% collapse post-purge recovery baseline (3–9 months) are in `../../kirby-aiseo-skill/SKILL.md` Module 17.
+- For undifferentiated scaled content generally, the Scaled Content Abuse demotion ladder (Module 1, 3–9 month post-purge recovery baseline) and the Grokipedia 97% collapse quarantine protocol (Module 17) are in `../../kirby-aiseo-skill/SKILL.md`.
 
 ## 3.4 Escalation Table
 
