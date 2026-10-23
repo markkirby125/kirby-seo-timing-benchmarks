@@ -44,3 +44,16 @@ No acceleration applies. Change the asset (consolidate/differentiate/410) per `0
 - **IndexNow as a Google fix** — wrong engine; Google is not a participant.
 - **Mass GSC request-indexing on programmatic rollouts** — quota-bound and footprint-risky; bulk visibility is earned via L3/L5/L7, and pre-deploy gates (`../../kirby-seo-deployment/SKILL.md` Module 19) exist to make bulk pages index-worthy first.
 - **Traffic inflation / bot clicks** — detectable; converts a timing problem into a penalty problem.
+
+---
+
+## 5.5 Late-Mover Crawl Acceleration Protocol (Seasonal & Promotional Resets)
+
+*Source: Edward Sturm Ep. 1206 (David Quaid, Harpreet Singh, Gagan Ghotra).*
+
+* **The Late-Mover Timing Crisis:** Launching promotional pages, seasonal hubs, or event landers on a compressed calendar (e.g. 1–2 weeks before Black Friday, Cyber Monday, or seasonal peaks) collides with Google's standard crawl and recrawl queues (~20h discovery + ~30d recrawl per Matrix rows 1 & 2). Relying on passive XML sitemaps or single URL inspection requests fails to guarantee indexation and ranking before the commercial event expires.
+* **The 4-Step Late-Mover Acceleration SOP:**
+  1. **Global Header Navigation Contextual Link:** Inject an explicit, temporary text link to the promotional URL directly inside the primary desktop and mobile navigation header (`"Black Friday Deals"` / `"Holiday Hub"`). Googlebot crawls global header DOM structures continuously, triggering rapid discovery and initial crawl scheduling within 6–12 hours.
+  2. **Homepage Viewport 1 Contextual Anchor:** Place a high-prominence banner or contextual text link in the primary viewport above the fold on the root homepage (`/`). Because homepages carry the highest crawl frequency and PageRank distribution across the domain, an above-the-fold homepage link forces immediate crawl-priority escalation.
+  3. **Top-5 Category Tier Donors:** Inject prominent internal links to the promotional page from the top 5 highest-traffic, highest-authority category pages.
+  4. **Post-Event Deprecation & Lifecycle Governance:** Within 72 hours of campaign termination, remove the global navigation and homepage links. Maintain the URL as an evergreen seasonal hub and execute the January canonical archival handoff per `../../kirby-seo-deployment/SKILL.md` Module 7 §7.18.
