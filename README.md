@@ -37,5 +37,5 @@ Copy and paste this directly to your AI (Cursor, Windsurf, Claude Code, Antigrav
 | `references/01_google_timing_matrix.md` | The 11-process benchmark table with confidence tiers and quick-lookup |
 | `references/02_sequential_delay_compounding.md` | Pipeline stacking law; stage-sum forecasting |
 | `references/03_quality_vs_technical_diagnosis.md` | Stall triage: infrastructure delay vs. algorithmic quality verdict |
-| `references/04_client_sla_and_expectation_management.md` | Contract SLA templates, migration schedule framework, recovery projections |
+| `references/04_client_sla_and_expectation_management.md` | Contract SLA templates, migration schedule framework, recovery projections, 90-day evaluation gate |
 | `references/05_velocity_acceleration_playbook.md` | Sanctioned acceleration levers + anti-patterns |

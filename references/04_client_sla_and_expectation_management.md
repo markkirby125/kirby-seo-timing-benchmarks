@@ -40,3 +40,16 @@ Benchmark anchors: **1–3 months typical, 6 months to 1+ year slowest** (Matrix
 ## 4.5 Reporting Cadence Alignment
 
 Report *leading* indicators inside Google's windows, not lagging outcomes outside them: crawl stats and discovery events (daily), coverage transitions (weekly), canonical resolution (weekly), ranking/traffic deltas (monthly, with core-update gating noted on row 9 recoveries). Instrumentation: `../../kirby-seo-telemetry/SKILL.md` Module 12.
+
+## 4.6 The 90-Day Evaluation Gate & SEO Changelog Latency
+
+*Source & Context: The SEO Meta Study (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160) discussed in The Edward Show (Ep. 1191 / Ep. 1207) and [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 15.*
+
+1. **Pipeline Latency Compounding on Established Pages**:
+   - For changes to existing URLs (title refreshes, on-page restructuring, category linking), the gate is the recrawl cycle: ~30 days typical (row 2), with slow tails stretching to months; SERP refresh then lands in 1–2 days post-recrawl (row 5).
+   - Canonical re-evaluation (row 7, 1–3 weeks) stacks on top only for canonical switches and migrations, per the stage-chain table in `02_sequential_delay_compounding.md` §2.2. Post-crawl indexing itself is not a meaningful lag source (row 3, from ~1.5h).
+   - 90 days ≈ three recrawl cycles — the minimum horizon before a result reflects algorithmic lift rather than crawl-queue lag, seasonality, or stochastic SERP volatility.
+
+2. **The 90-Day Evaluation Gate Alignment**:
+   - This latency model explains why the telemetry-owned gate is set at **90 days** (`evaluation_gate_days`, schema minimum 90): record each intervention as a single-variable event with a paired control cohort, per template or category cluster, in `seo_changelog.json` — governance and schema live in [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 15 §15.2; do not duplicate them here.
+   - Consequence for planning: never declare an intervention `VALIDATED` or `REVERTED` inside three recrawl cycles — a concurrent 10–20 change sprint ("shotgun SEO", §15.1) destroys causal attribution entirely.

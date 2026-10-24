@@ -6,7 +6,7 @@ This skill handles SEO timeline forecasting, stall triage, and velocity accelera
 - **01: The Official Google Timing Matrix** -> Read `./01_google_timing_matrix.md` (the 11-process benchmark table, typical vs. slowest-case ranges, corroboration status, and confidence tiers)
 - **02: Sequential Delay Compounding** -> Read `./02_sequential_delay_compounding.md` (the pipeline-stacking law; modeling upstream crawl debt that cascades into downstream stalls)
 - **03: Quality vs. Technical Diagnosis** -> Read `./03_quality_vs_technical_diagnosis.md` (triage protocol separating infrastructure delays from algorithmic quality rejection)
-- **04: Client SLA & Expectation Management** -> Read `./04_client_sla_and_expectation_management.md` (governance frameworks, contract SLA templates, migration schedules, recovery projections)
+- **04: Client SLA & Expectation Management** -> Read `./04_client_sla_and_expectation_management.md` (governance frameworks, contract SLA templates, migration schedules, recovery projections, and §4.6 The 90-Day Evaluation Gate & SEO Changelog Latency)
 - **05: Velocity Acceleration Playbook** -> Read `./05_velocity_acceleration_playbook.md` (tactical protocols to compress timeframes: authority signals, internal link velocity, IndexNow, real-traffic routing, and §5.5 Late-Mover Crawl Acceleration for seasonal/promotional resets)
 
 ## When to Use
@@ -19,9 +19,11 @@ This skill handles SEO timeline forecasting, stall triage, and velocity accelera
 - You are projecting recovery from a core update (3–6 months typical, gated on the *next* core update) or a manual action (1–2 weeks typical; dormant sites suffer) (`01_google_timing_matrix.md` rows 9–10).
 - You need to compress any of these windows and want sanctioned acceleration levers (authority, link velocity, IndexNow, real traffic) with their risk envelopes (`05_velocity_acceleration_playbook.md`).
 - You are launching seasonal or promotional landing pages on a compressed timeline (1–2 weeks before peak events) and require the Late-Mover Crawl Acceleration Protocol to force Googlebot discovery and indexing via global navigation and homepage Viewport 1 anchors within 6–12 hours (`05_velocity_acceleration_playbook.md` §5.5).
+- You are setting post-intervention evaluation windows or client reporting expectations for on-page/technical changes — mandate the 90-day evaluation gate (`04_client_sla_and_expectation_management.md` §4.6) aligned to `../../kirby-seo-telemetry/SKILL.md` Module 15.
 
 ## Routing Boundaries (do not duplicate sibling skills)
 - **Detecting** stalls from GSC telemetry (threshold alerts, coverage deltas) lives in `../../kirby-seo-telemetry/SKILL.md` Module 12. This skill defines the thresholds and the diagnosis; telemetry instruments them.
+- **Single-variable isolated changelog tracking** (`seo_changelog.json`) and 90-day evaluation cooldown governance live in `../../kirby-seo-telemetry/SKILL.md` Module 15. This skill supplies the pipeline latency model.
 - **Deploying** migrations under timing benchmarks (staging, cutover, monitoring windows) lives in `../../kirby-seo-deployment/SKILL.md` Module 20. This skill supplies the schedule math.
 - **Launch milestone calibration** for a brand-new site (Day 1 discovery spike, sitemap processing, canonical consolidation) lives in `../../kirby-zero-to-100-seo/SKILL.md` Module 2, which consumes this skill's Matrix.
 - **Title/snippet refresh expectations** after the 1-Hour SEO Update live in `../../kirby-aiseo-skill/SKILL.md` Module 16, aligned to the Matrix's 1–2 day propagation reality.
