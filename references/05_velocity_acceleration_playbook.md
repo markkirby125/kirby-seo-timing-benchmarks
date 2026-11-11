@@ -28,6 +28,7 @@ L2 (immediate) + L3 (same-day internal links from hub donors) + L4 (sitemap with
 
 **Scenario B — title/snippet edits must land before the ~30d recrawl gate:**
 L2 per edited URL (within quota) + L3 (link the edited URLs from a hot page). Expected: refresh in days, not the full 30d cycle.
+Scope: established pages only. A new page or tool under a `FREEZE` entry takes only changes already filed or defect fixes (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
 
 **Scenario C — canonical switch must converge inside 1–3 weeks:**
 Pre-clean all conflicting signals first (internal links, sitemap entries, 301 chains) — acceleration cannot outrank signal conflict (Matrix row 7 slow case). Then L2 + L4 on the canonical URL only; ensure the sitemap lists *only* canonicals.
