@@ -20,6 +20,7 @@ This skill handles SEO timeline forecasting, stall triage, and velocity accelera
 - You need to compress any of these windows and want sanctioned acceleration levers (authority, link velocity, IndexNow, real traffic) with their risk envelopes (`05_velocity_acceleration_playbook.md`).
 - You are launching seasonal or promotional landing pages on a compressed timeline (1–2 weeks before peak events) and require the Late-Mover Crawl Acceleration Protocol to force Googlebot discovery and indexing via global navigation and homepage Viewport 1 anchors within 6–12 hours (`05_velocity_acceleration_playbook.md` §5.5).
 - You are setting post-intervention evaluation windows or client reporting expectations for on-page/technical changes — mandate the 90-day evaluation gate (`04_client_sla_and_expectation_management.md` §4.6) aligned to `../../kirby-seo-telemetry/SKILL.md` Module 15.
+- You are asked what to do during an active core-update rollout (Nov 10 – ~Nov 24, 2026; freeze through ~Dec 1, 2026) → `04_client_sla_and_expectation_management.md` §4.7 and `../../kirby-seo-telemetry/SKILL.md` Module 16.
 
 ## Routing Boundaries (do not duplicate sibling skills)
 - **Detecting** stalls from GSC telemetry (threshold alerts, coverage deltas) lives in `../../kirby-seo-telemetry/SKILL.md` Module 12. This skill defines the thresholds and the diagnosis; telemetry instruments them.

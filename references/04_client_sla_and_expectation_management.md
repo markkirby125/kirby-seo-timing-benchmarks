@@ -55,3 +55,9 @@ Report *leading* indicators inside Google's windows, not lagging outcomes outsid
    - Consequence for planning: never declare an intervention `VALIDATED` or `REVERTED` inside three recrawl cycles — a concurrent 10–20 change sprint ("shotgun SEO", §15.1) destroys causal attribution entirely.
 
 3. **Narrow Freeze on New Pages and Tools (directional, single-source; not a Google rule)**: For a new page or single-page tool that has just started getting impressions, hold layout and text for roughly 90 days, as logged by the `FREEZE` entry in [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 15 §15.2 (scope, carve-outs and hedges live there). Established pages are out of scope, and defect fixes are always allowed. Monthly reporting (§4.5) is read-only for frozen URLs.
+
+## 4.7 Core Update Rollout Window (Nov 10 – ~Nov 24, 2026; freeze through ~Dec 1, 2026)
+
+- Client message: rankings are volatile during the rollout. We snapshot now, and compare only once the rollout ends plus 7 full days (~Dec 1, 2026). Changes during the window are queued, not shipped, apart from defect fixes.
+- Recovery reality: macro recovery typically waits for the next core update (Reference 01 row 9, 3–6 months typical). Never promise a date.
+- Protocol and freeze rule: `../../kirby-seo-telemetry/SKILL.md` Module 16.
