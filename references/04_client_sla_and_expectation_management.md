@@ -61,3 +61,15 @@ Report *leading* indicators inside Google's windows, not lagging outcomes outsid
 - Client message: rankings are volatile during the rollout. We snapshot now, and compare only once the rollout ends plus 7 full days (~Dec 1, 2026). Changes during the window are queued, not shipped, apart from defect fixes.
 - Recovery reality: macro recovery typically waits for the next core update (Reference 01 row 9, 3–6 months typical). Never promise a date.
 - Protocol and freeze rule: `../../kirby-seo-telemetry/SKILL.md` Module 16.
+
+## 4.8 AI Search Engine Propagation Windows (Directional — Outside the Google Matrix)
+
+*Scope note: These are **directional practitioner benchmarks outside the 11-row Google Search Matrix** (`01_google_timing_matrix.md`), not part of Gary Illyes's Oct 2026 Google Search Central disclosure. Canonical answer-engine mechanics and testing protocols live in `../../kirby-aiseo-skill/SKILL.md` (Module 2 §2.16.1B, §2.28B) and `../../kirby-seo-telemetry/SKILL.md` (Module 9, Module 15 §15.3).*
+
+| AI Search Surface | Directional Window | Pipeline Driver |
+|---|---|---|
+| **Google AI Overviews / Gemini** | **2–4 weeks** | Queries Google's live web index directly; first-party BOFU, `/trust`, and SSOT updates surface once crawled and indexed. |
+| **ChatGPT Search / Thinking** | **60–120 days** | Relies more heavily on third-party comparison consensus, slower search-grounding crawler refresh (`OAI-SearchBot`), and multi-step reasoning filters. |
+
+1. **Measurement Standard (`3–5×` Multi-Run Synthesis Recommendation Share + Conversions):** Single-run LLM prompts exhibit `1 vs 9` sub-query non-determinism. Measure visibility by running target prompts **`3–5×` across fresh sessions plus multi-turn follow-ups**, tracking **Synthesis Recommendation Share** (percentage of runs where the synthesized prose actively names and recommends the brand, not footnote links alone) alongside attributed conversions.
+2. **Client Expectation Setting:** Brief stakeholders upfront that Google AI Overviews / Gemini gains (`2–4 weeks`) precede ChatGPT Search / Thinking inclusion by **60–120 days**. Trailing ChatGPT visibility at week 4 reflects platform architecture latency, not campaign failure.

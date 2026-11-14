@@ -27,6 +27,8 @@ Rows 1–7 track the sequential ingestion pipeline of Reference 02: rows 1–3 a
 | 10 | Manual action removals | 1–2 weeks | 4–6 weeks+ | 2 | Dormant/low-activity sites suffer the slow tail. |
 | 11 | GSC URL removals | ~2 hours | Up to 24 hours | 2 | The only near-real-time process in the Matrix. |
 
+> **Scope boundary (AI search propagation):** The 11 rows above cover Google Search's processing pipeline only. Directional practitioner benchmarks for **Google AI Overviews / Gemini (`2–4 weeks`)** vs. **ChatGPT Search / Thinking (`60–120 days`)** sit outside this Matrix in `04_client_sla_and_expectation_management.md` §4.8.
+
 ## 1.2 The Two Asymmetries That Matter
 
 1. **Pipeline speed vs. queue speed.** The indexing pipeline itself (from ~1.5 hours) is roughly 13x faster than new-URL discovery (~20 hours) and ~480x faster than recrawl (~30 days). When diagnosing delays, the bottleneck is almost never the pipeline — it is discovery or recrawl scheduling upstream of it (see `02_sequential_delay_compounding.md`).
