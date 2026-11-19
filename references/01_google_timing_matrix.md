@@ -23,7 +23,7 @@ Rows 1–7 track the sequential ingestion pipeline of Reference 02: rows 1–3 a
 | 6 | Search snippet changes | 1–2 days | Several weeks to months | 2 | Same recrawl dependency as row 5. |
 | 7 | Canonical changes | 1–3 weeks | Months | 2 | Extends when conflicting signals persist: internal links to deprecated URLs, sitemaps listing non-canonicals, conflicting 301s. |
 | 8 | Site migrations | 1–3 months | 6 months to 1+ year | 1 | Full consolidation including signal transfer; see `04_client_sla_and_expectation_management.md` §4.4. |
-| 9 | Core update recovery | 3–6 months | 6–12 months | 1 | Macro site-quality recalculations generally do not update until Google deploys the **next** core update. |
+| 9 | Core update recovery | 3–6 months | 6–12 months | 1 | Macro site-quality recalculations generally do not update until Google deploys the **next** core update. Link-based demotions follow the row 9/10 slow tail; sequence recovery with the telemetry triage in `../../kirby-seo-telemetry/SKILL.md` (directional). |
 | 10 | Manual action removals | 1–2 weeks | 4–6 weeks+ | 2 | Dormant/low-activity sites suffer the slow tail. |
 | 11 | GSC URL removals | ~2 hours | Up to 24 hours | 2 | The only near-real-time process in the Matrix. |
 
