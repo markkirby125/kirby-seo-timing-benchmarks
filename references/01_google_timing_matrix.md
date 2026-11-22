@@ -4,7 +4,7 @@
 
 ## 1.0 Confidence Tiers & Usage Rules
 
-- **Tier 1 (press-corroborated):** rows independently reported by Search Engine Journal ("Google Shows How Long Crawling, Indexing & Recovery Take"), PPC Land (Oct 3, 2026), and Search Engine Roundtable recap tables. These may be quoted externally with source attribution.
+- **Tier 1 (press-corroborated):** rows independently reported by at least one of Search Engine Journal ("Google Shows How Long Crawling, Indexing & Recovery Take"), PPC Land (Oct 3, 2026), or Search Engine Roundtable recap tables. These may be quoted externally with source attribution.
 - **Tier 2 (single-source):** rows digitized from the video dossier only. Treat as directional; corroborate before external citation.
 - All figures are **indicative typical timeframes and slowest-case upper bounds** Google uses internally — not guarantees, not SLAs. Google's scheduler dynamically reprioritizes by quality, authority, and demand.
 - **Never** quote a slowest-case figure as an expectation, and never quote a typical figure as a promise. Client-facing projections use the SLA framework in `04_client_sla_and_expectation_management.md`.
@@ -17,7 +17,7 @@ Rows 1–7 track the sequential ingestion pipeline of Reference 02: rows 1–3 a
 |---|---|---|---|---|---|
 | 1 | New URL discovery | ~20 hours | Weeks to never | 1 | Sitemap submission does not bypass discovery; low-quality URLs may never be discovered. |
 | 2 | Recrawl of known URL | ~30 days (1 month) | Weeks to never | 1 | Googlebot's default refresh cadence for content it already holds. |
-| 3 | Indexing pipeline latency (post-crawl) | from ~1.5 hours | Months to never | 1 | Press corroboration phrases this as "**from** 1.5 hours" — a floor/start latency, not a mean duration. The pipeline is fast by construction; "months or never" signals quality failure, not queue backlog (see `03_quality_vs_technical_diagnosis.md`). |
+| 3 | Indexing pipeline latency (post-crawl) | from ~1.5 hours | Months to never | 2 | Palai Media's recap (not a Tier 1 outlet) phrases this as "**from** 1.5 hours" — a floor/start latency, not a mean duration. The pipeline is fast by construction; "months or never" signals quality failure, not queue backlog (see `03_quality_vs_technical_diagnosis.md`). |
 | 4 | XML sitemap processing | ~24 hours (1 day) | Up to 14 days or never | 2 | Stale, error-ridden, or low-trust sitemaps fall to the slow tail. |
 | 5 | Page title changes in SERPs | 1–2 days | Several weeks to months | 2 | Constrained by the recrawl cadence of row 2. |
 | 6 | Search snippet changes | 1–2 days | Several weeks to months | 2 | Same recrawl dependency as row 5. |
