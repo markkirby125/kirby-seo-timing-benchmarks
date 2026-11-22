@@ -1,6 +1,6 @@
-# Reference 01: The Official Google Timing Matrix
+# Reference 01: The Google Timing Matrix (Indicative)
 
-*Source: Gary Illyes (Google Search Central), "How long does SEO take?" presentation, Search Central Live Deep Dive Europe, Barcelona, October 2, 2026. Digitized from Edward Sturm's analysis (The Edward Show, Ep. E1192, 8:50). These numbers ended two decades of "it depends" as the industry's standard answer.*
+*Source: Gary Illyes (Google Search Central), "How long does SEO take?" presentation, Search Central Live Deep Dive Europe, Barcelona, October 2, 2026. Digitized from Edward Sturm's analysis (The Edward Show, Ep. E1192, 8:50). These figures were presented as directional planning ranges, not guarantees.*
 
 ## 1.0 Confidence Tiers & Usage Rules
 
@@ -36,7 +36,7 @@ Rows 1–7 track the sequential ingestion pipeline of Reference 02: rows 1–3 a
 
 ## 1.3 The Authority Bypass
 
-Authoritative websites with real user traffic and topical relevance can bypass these timelines entirely — Sturm demonstrates fresh URLs ranking #1 above legacy news publications in under 5 minutes. The scheduler operates a real-time priority lane keyed on domain authority, clickstream traffic, fresh contextual backlinks, and topical density. This bypass is a *earned state*, not a tactic: the levers that build it are in `05_velocity_acceleration_playbook.md`, and the ceiling is governed by off-site authority (execution: `../../kirby-off-page-seo/SKILL.md`).
+One single-source observation (Sturm; Untiered (directional, single-source)) suggests some authoritative websites with real user traffic and topical relevance can shortcut these timelines: fresh URLs ranked #1 above legacy news publications in under 5 minutes. That is a ranking observation, kept distinct from crawl and index latency. The scheduler is reported to operate a real-time priority lane keyed on domain authority, clickstream traffic, fresh contextual backlinks, and topical density. This bypass is a *earned state*, not a tactic: the levers that build it are in `05_velocity_acceleration_playbook.md`, and the ceiling is governed by off-site authority (execution: `../../kirby-off-page-seo/SKILL.md`).
 
 ## 1.4 Quick Lookup: Common Questions → Row
 

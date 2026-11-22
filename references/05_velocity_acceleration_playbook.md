@@ -1,10 +1,10 @@
 # Reference 05: Velocity Acceleration Playbook
 
-*Source: Edward Sturm's "velocity acceleration protocols" (Ep. E1192). Accelerating past typical queues requires establishing domain authority, real user clickstream traffic, fresh contextual backlinks, and dense topical authority — forcing Google's real-time crawl scheduler to prioritize URL inspection. The authority bypass ceiling is demonstrated at §1.3 of the Matrix: fresh URLs ranking #1 in under 5 minutes on established entities.*
+*Source: Edward Sturm's "velocity acceleration protocols" (Ep. E1192). Accelerating past typical queues requires establishing domain authority, real user clickstream traffic, fresh contextual backlinks, and dense topical authority — reportedly prompting Google's crawl scheduler to prioritize URL inspection (Untiered (directional, single-source)). A single-source observation (Sturm, §1.3 of the Matrix; untiered, directional) reports fresh URLs ranking #1 in under 5 minutes on established entities.*
 
 ## 5.1 Doctrine: Acceleration Is Earned-State Engineering
 
-The typical benchmarks in the Matrix apply to *average-priority* URLs. The scheduler maintains a real-time priority lane for high-authority, high-traffic, topically dense entities. Every lever below works by moving the asset up that priority ladder. None of them are tricks; all of them are the same signals Google's scheduler already measures, applied deliberately.
+The typical benchmarks in the Matrix apply to *average-priority* URLs. The scheduler is reported to maintain a real-time priority lane (untiered, directional) for high-authority, high-traffic, topically dense entities. Every lever below works by moving the asset up that priority ladder. None of them are tricks; Sturm reports they are the same signals Google's scheduler weighs (untiered, directional, single-source), applied deliberately.
 
 **Risk envelope:** acceleration levers compress *typical* windows; they do not repeal quality verdicts. A quality-rejected URL (`03_quality_vs_technical_diagnosis.md` §3.3) gains nothing from this playbook until the asset itself changes.
 
