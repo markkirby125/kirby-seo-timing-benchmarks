@@ -58,3 +58,11 @@ No acceleration applies. Change the asset (consolidate/differentiate/410) per `0
   2. **Homepage Viewport 1 Contextual Anchor:** Place a high-prominence banner or contextual text link in the primary viewport above the fold on the root homepage (`/`). Because homepages carry the highest crawl frequency and PageRank distribution across the domain, an above-the-fold homepage link forces immediate crawl-priority escalation.
   3. **Top-5 Category Tier Donors:** Inject prominent internal links to the promotional page from the top 5 highest-traffic, highest-authority category pages.
   4. **Post-Event Deprecation & Lifecycle Governance:** Within 72 hours of campaign termination, remove the global navigation and homepage links. Maintain the URL as an evergreen seasonal hub and execute the January canonical archival handoff per `../../kirby-seo-deployment/SKILL.md` Module 7 §7.18.
+
+---
+
+## 5.6 Subfolder Maturation Observation (Nov 2026, untiered directional)
+
+*Source: Koray Tuğberk GÜBÜR (Julian Goldie interview, `youtu.be/Af9rvlVPQCQ`, Nov 11, 2026). Single-source practitioner observation, not a Matrix row, not a Google statement, not an established cause.*
+
+* **Observation only:** in this one interview, maturing large enterprise/programmatic subfolders (`~5,000` pages) took about **3 months**, while a single `BrowserStack` case (`~2,000` AI docs/day) saw a short spike, then an `~8-month` delayed `~70%` visibility collapse. This section sets no publishing cadence. Pacing rule: `../../kirby-seo-deployment/SKILL.md` Module 7 §7.2.

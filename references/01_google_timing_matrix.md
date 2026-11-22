@@ -52,7 +52,7 @@ Authoritative websites with real user traffic and topical relevance can bypass t
 
 ## 1.5 Source Manifest
 
-| Source | Type | Date | Confirms |
+| Source | Type | Date | Supplies / Illustrates |
 |---|---|---|---|
 | Gary Illyes presentation, Search Central Live Deep Dive Europe (Barcelona) — event announcement: `developers.google.com/search/blog/2026/07/search-central-live-deep-dive-europe-2026` | Primary (presentation, not published proceedings) | Oct 2, 2026 | The disclosure event itself |
 | Edward Sturm, The Edward Show Ep. E1192 — `youtu.be/sRZizu5mi_c` | Full-matrix analysis (digitization source for all 11 rows) | Oct 2026 | Rows 1–11 incl. Tier 2 rows |
@@ -61,5 +61,6 @@ Authoritative websites with real user traffic and topical relevance can bypass t
 | Search Engine Roundtable, "Google Search Data On Crawling, Indexing & Serving" (recap table) | Press recap | ~Oct 5, 2026 | Rows 1–2 typical + slow ranges |
 | Palai Media, "How Long Google Indexing Takes: Internal Benchmarks" | Press recap | ~Oct 5, 2026 | Row 3 as "**from** 1.5 hours" (start-latency framing) |
 | Google Search Central docs, "Google Search's Core Updates" — `developers.google.com/search/docs/appearance/core-updates` | Standing documentation | current | Row 9 consistency ("could take several months") |
+| Koray Tuğberk GÜBÜR (Julian Goldie interview, `youtu.be/Af9rvlVPQCQ`) | Directional single-source observation (non-Matrix) | Nov 11, 2026 | §5.6 ~3-month subfolder maturation example & `BrowserStack` delayed collapse case |
 
 **Provenance note:** press recaps corroborate the headline rows; rows 3–7, 10–11 rest on the video analysis as digitized here. The 13x/480x arithmetic in §1.2 is this skill's derivation, not Google's. When quoting externally, attribute the primary presentation and the tier per this manifest.
