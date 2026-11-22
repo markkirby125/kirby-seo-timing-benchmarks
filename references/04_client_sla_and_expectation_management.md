@@ -47,7 +47,7 @@ Report *leading* indicators inside Google's windows, not lagging outcomes outsid
 
 1. **Pipeline Latency Compounding on Established Pages**:
    - For changes to existing URLs (title refreshes, on-page restructuring, category linking), the gate is the recrawl cycle: ~30 days typical (row 2), with slow tails stretching to months; SERP refresh then lands in 1–2 days post-recrawl (row 5).
-   - Canonical re-evaluation (row 7, 1–3 weeks) stacks on top only for canonical switches and migrations, per the stage-chain table in `02_sequential_delay_compounding.md` §2.2. Post-crawl indexing itself is not a meaningful lag source (row 3, from ~1.5h).
+   - Canonical re-evaluation (row 7, 1–3 weeks) stacks on top only for canonical switches and migrations, per the stage-chain table in `02_sequential_delay_compounding.md` §2.2. Post-crawl indexing itself is not a meaningful lag source (row 3, from ~1.5h, Tier 2 directional).
    - 90 days ≈ three recrawl cycles — the minimum horizon before a result reflects algorithmic lift rather than crawl-queue lag, seasonality, or stochastic SERP volatility.
 
 2. **The 90-Day Evaluation Gate Alignment**:

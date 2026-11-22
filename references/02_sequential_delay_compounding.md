@@ -18,7 +18,7 @@ For any change you want reflected in Search (new page, title edit, canonical swi
 
 | Change type | Stages traversed | Expected typical latency |
 |---|---|---|
-| New page appears in Search | Discovery + Crawl + Index | ~20h + pipeline (~1.5h index path) ≈ ~1 day; do not promise faster |
+| New page appears in Search | Discovery + Crawl + Index | ~20h + pipeline (~1.5h index path, row 3 Tier 2 directional) ≈ ~1 day; do not promise faster |
 | Title/meta edit on indexed page | Recrawl + Reindex + Serve | ~30d recrawl gate + 1–2d SERP refresh |
 | Canonical switch | Recrawl + Re-consolidation | ~30d recrawl gate + 1–3wk canonical convergence |
 | Site migration | Full pipeline per URL + signal transfer | 1–3 months typical (row 8) |

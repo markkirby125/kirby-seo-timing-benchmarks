@@ -4,8 +4,8 @@
 
 ## 1.0 Confidence Tiers & Usage Rules
 
-- **Tier 1 (press-corroborated):** rows independently reported by at least one of Search Engine Journal ("Google Shows How Long Crawling, Indexing & Recovery Take"), PPC Land (Oct 3, 2026), or Search Engine Roundtable recap tables. These may be quoted externally with source attribution.
-- **Tier 2 (single-source):** rows digitized from the video dossier only. Treat as directional; corroborate before external citation.
+- **Tier 1 (press-corroborated):** rows separately reported by at least one of Search Engine Journal ("Google Shows How Long Crawling, Indexing & Recovery Take"), PPC Land (Oct 3, 2026), or Search Engine Roundtable recap tables. These may be quoted externally with source attribution.
+- **Tier 2 (directional):** any row not covered by at least one of the three named Tier 1 outlets (video dossier only, or recapped only by a non-Tier-1 source such as Palai Media for row 3). Treat as directional; corroborate before external citation.
 - All figures are **indicative typical timeframes and slowest-case upper bounds** Google uses internally — not guarantees, not SLAs. Google's scheduler dynamically reprioritizes by quality, authority, and demand.
 - **Never** quote a slowest-case figure as an expectation, and never quote a typical figure as a promise. Client-facing projections use the SLA framework in `04_client_sla_and_expectation_management.md`.
 
@@ -17,7 +17,7 @@ Rows 1–7 track the sequential ingestion pipeline of Reference 02: rows 1–3 a
 |---|---|---|---|---|---|
 | 1 | New URL discovery | ~20 hours | Weeks to never | 1 | Sitemap submission does not bypass discovery; low-quality URLs may never be discovered. |
 | 2 | Recrawl of known URL | ~30 days (1 month) | Weeks to never | 1 | Googlebot's default refresh cadence for content it already holds. |
-| 3 | Indexing pipeline latency (post-crawl) | from ~1.5 hours | Months to never | 2 | Palai Media's recap (not a Tier 1 outlet) phrases this as "**from** 1.5 hours" — a floor/start latency, not a mean duration. The pipeline is fast by construction; "months or never" signals quality failure, not queue backlog (see `03_quality_vs_technical_diagnosis.md`). |
+| 3 | Indexing pipeline latency (post-crawl) | from ~1.5 hours | Months to never | 2 | Palai Media's recap (not one of the three Tier 1 outlets named in §1.0) phrases this as "**from** 1.5 hours" — a floor/start latency, not a mean duration. The pipeline is fast by construction; "months or never" signals quality failure, not queue backlog (see `03_quality_vs_technical_diagnosis.md`). |
 | 4 | XML sitemap processing | ~24 hours (1 day) | Up to 14 days or never | 2 | Stale, error-ridden, or low-trust sitemaps fall to the slow tail. |
 | 5 | Page title changes in SERPs | 1–2 days | Several weeks to months | 2 | Constrained by the recrawl cadence of row 2. |
 | 6 | Search snippet changes | 1–2 days | Several weeks to months | 2 | Same recrawl dependency as row 5. |
@@ -31,7 +31,7 @@ Rows 1–7 track the sequential ingestion pipeline of Reference 02: rows 1–3 a
 
 ## 1.2 The Two Asymmetries That Matter
 
-1. **Pipeline speed vs. queue speed.** The indexing pipeline itself (from ~1.5 hours) is roughly 13x faster than new-URL discovery (~20 hours) and ~480x faster than recrawl (~30 days). When diagnosing delays, the bottleneck is almost never the pipeline — it is discovery or recrawl scheduling upstream of it (see `02_sequential_delay_compounding.md`).
+1. **Pipeline speed vs. queue speed.** The indexing pipeline itself (from ~1.5 hours, row 3, Tier 2) is roughly 13x faster than new-URL discovery (~20 hours) and ~480x faster than recrawl (~30 days). When diagnosing delays, the bottleneck is almost never the pipeline — it is discovery or recrawl scheduling upstream of it (see `02_sequential_delay_compounding.md`).
 2. **Typical vs. never.** Every row's slowest case terminates in "never" or "1+ year." The slow tail is not a longer queue; it is a different mechanism — quality-based deprioritization. This is the single most consequential insight of the Illyes disclosure: **"months or never" is a verdict, not a delay** (`03_quality_vs_technical_diagnosis.md` §3.3).
 
 ## 1.3 The Authority Bypass
@@ -63,4 +63,4 @@ One single-source observation (Sturm; Untiered (directional, single-source)) sug
 | Google Search Central docs, "Google Search's Core Updates" — `developers.google.com/search/docs/appearance/core-updates` | Standing documentation | current | Row 9 consistency ("could take several months") |
 | Koray Tuğberk GÜBÜR (Julian Goldie interview, `youtu.be/Af9rvlVPQCQ`) | Directional single-source observation (non-Matrix) | Nov 11, 2026 | §5.6 ~3-month subfolder maturation example & `BrowserStack` delayed collapse case |
 
-**Provenance note:** press recaps corroborate the headline rows; rows 3–7, 10–11 rest on the video analysis as digitized here. The 13x/480x arithmetic in §1.2 is this skill's derivation, not Google's. When quoting externally, attribute the primary presentation and the tier per this manifest.
+**Provenance note:** press recaps corroborate the headline rows; rows 3–7, 10–11 are not Tier-1-corroborated; row 3's "from 1.5 hours" is additionally recapped by Palai Media. The 13x/480x arithmetic in §1.2 is this skill's derivation, not Google's. When quoting externally, attribute the primary presentation and the tier per this manifest.
