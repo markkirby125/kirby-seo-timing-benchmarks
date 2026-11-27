@@ -61,6 +61,6 @@ One single-source observation (Sturm; Untiered (directional, single-source)) sug
 | Search Engine Roundtable, "Google Search Data On Crawling, Indexing & Serving" (recap table) | Press recap | ~Oct 5, 2026 | Rows 1–2 typical + slow ranges |
 | Palai Media, "How Long Google Indexing Takes: Internal Benchmarks" | Press recap | ~Oct 5, 2026 | Row 3 as "**from** 1.5 hours" (start-latency framing) |
 | Google Search Central docs, "Google Search's Core Updates" — `developers.google.com/search/docs/appearance/core-updates` | Standing documentation | current | Row 9 consistency ("could take several months") |
-| Koray Tuğberk GÜBÜR (Julian Goldie interview, `youtu.be/Af9rvlVPQCQ`) | Directional single-source observation (non-Matrix) | Nov 11, 2026 | §5.6 ~3-month subfolder maturation example & `BrowserStack` delayed collapse case |
+| Koray Tuğberk GÜBÜR (Julian Goldie interview, `youtu.be/Af9rvlVPQCQ`) | Directional single-source observation (non-Matrix) | Oct 10, 2026 | §5.6 ~3-month subfolder maturation example & `BrowserStack` delayed collapse case |
 
 **Provenance note:** press recaps corroborate the headline rows; rows 3–7, 10–11 are not Tier-1-corroborated; row 3's "from 1.5 hours" is additionally recapped by Palai Media. The 13x/480x arithmetic in §1.2 is this skill's derivation, not Google's. When quoting externally, attribute the primary presentation and the tier per this manifest.
